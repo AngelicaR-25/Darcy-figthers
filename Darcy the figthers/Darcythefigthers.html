@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Darcy the figthers</title>
+        <link rel="stylesheet" href="./Stylegame.css">
+
+    </head>
+    <body>
+        
+        <section id="seleccionar-mascota">
+            <h1 class="title">Darcy the figthers</h1>
+
+            <h2>Elige tu mascota:</h2>
+
+            <div class="tarjetas">
+                <input type="radio" name="mascota" id="Spider-cat" /> 
+                <label class="tarjetas-darcy-figthers" for="Spider-cat">
+                    <p>Spider cat</p>
+                    <img src = "fondo/spider_man_spider_cat_png_by_metropolis_hero1125_de8mwmx-fullview.png" alt ="">
+                </label>
+               
+                <input type="radio" name="mascota" id="Fat-cat" />
+                <label class="tarjetas-darcy-figthers" for="Fat-cat">
+                    <p>Fat cat</p>
+                    <img src="./fondo/99-997825_fat-cat-png-fat-cats.png" alt ="">
+                </label>
+              
+                <input type="radio" name="mascota" id="Tyson-cat" />
+                <label class="tarjetas-darcy-figthers" for="Tyson-cat">
+                    <p>Tyson cat</p>
+                    <img src = "fondo/13e5f6d3cd401e19a9ecf36a64726364--kungfu-ninja-cats-removebg-preview.png" alt ="">
+                </label>
+            </div>
+
+        <button id="boton-mascota">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h1 class="title">Darcy the figthers</h1>
+            <h2 class="subtitulo">Elige tu ataque:</h2>
+
+            <div class="tarjetas-ataques">
+                <button id="boton-llamarada" class="boton-de-ataque">Llamarada</button>
+                <button id="boton-tormenta" class="boton-de-ataque">Tormenta</button>
+                <button id="boton-terremoto" class="boton-de-ataque">Terremoto</button>
+            </div>
+
+            <div id="mensajes">
+                <div id="resultado">Mucha suerte y confia en tus habilidades</div>
+
+                <section id="reiniciar">
+                    <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div>
+
+            <div class="ataques">
+                <div class="ataques-jugador">
+                    <p id="vidas-jugador"></p>
+                    <p id="mascota-jugador"></p>
+                    <div id="ataques-del-jugador"></div>
+                </div>
+                <div class="ataques-enemigo">
+                    <p id="vidas-enemigo"></p>
+                    <p id="mascota-enemigo"></p>
+                    <div id="ataques-del-enemigo"></div>
+                </div>       
+            </div>
+        </section>
+        <script src="./js/Darcythefigthers.js"></script>
+    </body>
+</html>

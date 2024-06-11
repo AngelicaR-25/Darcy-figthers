@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background-image: url("./fondo/ColorfulZigzagKite-size_restricted.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    color: whitesmoke; 
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    font-family: Orbitron, sans-serif;
+    color: white; 
+    font-size: 40px;
+    flex-direction: column;
+}
+#seleccionar-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Orbitron, sans-serif;
+}
+.tarjetas {
+    display: flex;
+    gap: 30px;
+} 
+
+.tarjetas-darcy-figthers {
+    width: 260px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tarjetas-darcy-figthers img{
+    width: 150px;
+}
+input {
+ display: none; 
+}
+
+input:checked + label {
+    background-color: #E6E6FA;
+}
+
+#mensajes {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black; 
+    font-family: Orbitron, sans-serif;
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid white;
+    text-align: center;
+
+}
+
+#boton-mascota,
+#boton-fuego,
+#boton-agua,
+#boton-tierra,
+#boton-reiniciar {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-family: Orbitron, sans-serif;
+    width: 180px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+
+#boton-fuego,
+#boton-agua,
+#boton-tierra {
+    width: 90px;
+    height: 35px;
+    margin: 10px;
+}
+
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    font-family: Orbitron, sans-serif;
+    color: white;
+      
+}
+#vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    margin-bottom: 00px;
+}
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boton-fuego,
+#boton-agua,
+#boton-tierra,
+#boton-llamarada,
+#boton-tormenta,
+#boton-terremoto {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-family: Orbitron, sans-serif;
+    width: 180px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+
+#boton-fuego,
+#boton-agua,
+#boton-tierra,
+#boton-llamarada,
+#boton-tormenta,
+#boton-terremoto {
+    width: 90px;
+    height: 35px;
+    margin: 10px;
+}
+   
+
